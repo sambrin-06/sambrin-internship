@@ -1,0 +1,83 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover */
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Links */
+a {
+    transition: all 0.3s ease;
+}
+
+/* Link Hover */
+a:hover {
+    text-decoration: underline;
+    color: #ffdd57 !important;
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Input Focus Effect */
+.form-control:focus {
+    border-color: #764ba2;
+    box-shadow: 0 0 8px rgba(118, 75, 162, 0.5);
+}
+
+/* Input Group Text */
+.input-group-text {
+    border-radius: 10px;
+}
+
+/* Custom Spacing */
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Navbar Custom */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Smooth transitions for everything */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
